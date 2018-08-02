@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\commons",
+    "\\controller",
+    "\\directive",
+    "\\model",
+    "\\scripts",
+    "\\scripts\\libs",
+    "\\tests"
+  ],
+  "SelectedNode": "\\tests\\tesCtr.js",
+  "PreviewInSolutionExplorer": false
+}

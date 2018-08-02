@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app = "myApp">
+<head>
+    <title>Page Title</title>
+    <script src="scripts/libs/angular.min.js"></script>
+    <script src="commons/app.js"></script>
+    <script src="controller/controller.js"></script>
+    <script src="directive/directive.js"></script>
+    <script src="tests/tesCtr.js"></script>
+</head>
+<body>
+
+    <div ng-controller="controller1">
+        <ol>
+            <li ng-repeat="person in listPersons">
+                First Name: {{person.firstName}}
+                Last Name: {{person.lastName}}
+            </li>
+        </ol>
+        Message controller 1: {{huhu}}
+    </div>
+
+    <div ng-controller="controller2">
+        Messagecontroller 2: {{huhu}}
+    </div>
+
+    <div>
+        <my-directive></my-directive>
+    </div>
+
+    <div ng-controller="repeatController">
+        <ol>
+            <li ng-repeat="employee in employees">
+                First Name: {{employee.firstName}}
+                Last Name: {{employee.lastName}}
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
+
